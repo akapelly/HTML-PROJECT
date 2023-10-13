@@ -3,11 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="my goals for the year">
+    <meta name="description" content="My Practicals">
     <link rel="icon" href="html-5.png">
-    <title>My Goals</title>
+    <title>Practicals</title>
 </head>
 <body>
+    <h1>My Practicals</h1>
+
+    <hr>
+
+    <h2>I'm learning html</h2>
+    <p>this is my third webpage</p>
+    <h3>My Daily Schedule</h3>
+    <ol>
+        <li>...I am learning more about html</li>
+        <li>...I will plan out my schedule</li>
+        <li>...I use resources from <abbr title="Mozilla Developers Network ">MDN</abbr></li>
+    </ol>
+
+    <hr>
+
+    <h2>I don't think a vacation is neccessary but if it ever be then i will visit:</h2>
+    <p>I have been working really hard and i damn need a getaway</p>
+    <p>I live in <abbr title="Nigeria">NG</abbr> so I want to visit a waterfall</p>
     
 </body>
-</html> 
+</html>
