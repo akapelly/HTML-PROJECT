@@ -1,0 +1,14 @@
+*{
+    background-color: black;
+}
+table,tr,th,td,caption{
+    border:1px solid #fff;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+table{
+    width: 50%;
+}
