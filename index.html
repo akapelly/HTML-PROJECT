@@ -163,10 +163,65 @@
             </p>
             <p>
                 <label for="phonenumber">Phone Number:</label>
-                <input type="number" name="phonenumber" id="phonenumber" placeholder="Phone" required>
+                <input type="tel" name="phonenumber" id="phonenumber" placeholder="Phone" pattern="[0-9]{4}[0-9]{3}[0-9]{4}" required>
             </p>
-            <input type="submit" value="Submit">
+            <p>
+                <label for="decade">Favorite Decade:</label>
+                <input type="number" name="decade" id="decade" value="1980" min="1950" max="2020" step="10">
+            </p>
+            <p>
+                <label for="coffee">Favorite Coffee:</label>
+                <select name="coffee" id="coffee">
+                    <optgroup label="Coffees">
+                    <option value="regular coffee">Regular coffee</option>
+                    <option value="iced coffee">Iced Coffee</option>
+                    </optgroup>
+                    <optgroup label="Expresso Drinks">
+                    <option value="latte">latte</option>
+                    <option value="cappacino">Cappacino</option>
+                    <option value="cortado">Cortado</option>
+                    <option value="americano">Americano</option>
+                    <option value="others">Others</option>
+                    </optgroup>
+                </select>
+            </p>
         </fieldset>
+            <fieldset>
+                <legend>What is your favorite food?</legend>
+                <p>
+                    <input type="radio" name="foods" id="tacos" value="Tacos">
+                    <label for="tacos">Tacos</label>
+                </p>
+                <p>
+                    <input type="radio" name="foods" id="pizza" value="Pizza">
+                    <label for="pizza">Pizza</label>
+                </p>
+                <p>
+                    <input type="radio" name="foods" id="others" value="Others">
+                    <label for="others">Others</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Do you have pets?</legend>
+                <p>
+                    <input type="checkbox" name="pets" id="dog" value="Dog">
+                    <label for="dog">Dog</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="cat" value="Cat">
+                    <label for="cat">Cat</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="fish" value="Fish">
+                    <label for="fish">Fish</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="others" value="Others">
+                    <label for="others">Others</label>
+                </p>
+            </fieldset>
+           
+        
     </form>
     <footer>
         <P>&lt;&lt;&copy;<a href="about.html">Akapelly</a>&gt;&gt;</P>
