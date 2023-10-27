@@ -12,7 +12,6 @@
 
 <body>
 
-
     <header>
         <h1>My Goals For The Year</h1>
         <nav>
@@ -144,10 +143,10 @@
     <p>This is my favorite Taco 🌮🌮🌮</p>
     <form action="https://httpbin.org/get" method="get">
         <fieldset>
-            <legend>Personal Information</legend>
+            <legend>Personal Information</legend>   
             <p>
                 <label for="firstname">First Name:</label>
-                <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
+                <input type="text" name="firstname" id="firstname" placeholder="First Name" required autofocus>
             </p>
             <p>
                 <label for="lastname">Last Name:</label>
@@ -220,9 +219,32 @@
                     <label for="others">Others</label>
                 </p>
             </fieldset>
-           
-        
+            <fieldset>
+                <legend>Send me a note</legend>
+                <label for="message">Your message:</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type Your Message Here"></textarea>
+            </fieldset>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
     </form>
+    <section>
+        <center>
+            <h3>Testimonials</h3>
+            <p>Here is a video of one of our past students sharing one of her wonderful impact story from our training session</p>
+           <!-- <video controls width="480" height="360"src="">
+                <source src="video.mp4" type="video/mp4" >
+            </video>-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/slZqX2QH4oE?si=YT8yzW3-k6oDubET" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <br>
+            <br>
+            <audio controls>
+                <source src="Emtee-Roll-Up-Re-Up-Ft-Wizkid-And-AKA-(TrendyBeatz.com) (1).mp3" type="audio/mpeg">
+            </audio>
+        </center>
+    </section>
     <footer>
         <P>&lt;&lt;&copy;<a href="about.html">Akapelly</a>&gt;&gt;</P>
         <p><a href="#">Back To Top</a></p>
