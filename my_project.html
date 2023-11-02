@@ -1,32 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>CatPhotoApp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="My Project">
+    <link rel="icon" href="HTML_Project/Project_HTML/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>My Project</title>
 </head>
-<body>
-<main>
-    <h1>CatPhotoApp</h1>
-sect
-    <h2>Cat Photos</h2>
-    <!-- TODO: Add link to cat photos-->
-    <p>See more <a target="_blank" href="https://freecatphotoapp.com" >cat photos</a> in our gallery.</p>
-<a href="https://freecatphotoapp.com">   <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back"></a> 
 
-    <h2>Cat Lists</h2>
-    <h3>Things cats love:</h3>
-    <ul>
-        <li>cat nip</li>
-        <li>laser pointers</li>
-        <li>lasagna</li>
-    </ul>
-    <h3>Top 3 things cats hate:</h3>
-    <ol>
-        <li>flea treatment</li>
-        <li>thunder</li>
-        <li>other cats</li>
-    </ol>
-    <h2>Cat Form</h2>
-</main>
+<body style="background-color: bisque;">
+
+    <header>
+        <h1>Welcome To The Little Taco Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#first">About LTS</a></li>
+                <li><a href="#second">Our Menu</a></li>
+                <li><a href="hours.html">Store Hours</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <figure>
+        <img src="HTML_Project/Project_HTML/img/tacos_and_drink_400x267.png" alt="Tacos and Drink"
+            title="Tacos and Drinks">
+        <figcaption>Tacos and a Drink</figcaption>
+    </figure>
+    <hr>
+    <main>
+        <article id="first">
+            <h2>About <abbr title="Little Taco Shop">LTS</abbr></h2>
+            <p><abbr title="">LTS</abbr> was founded in 2022,Our shop was built from a <strong>love of
+                    tacos</strong>
+                🌮🌮🌮.We
+                hope our shop adds a unique and interesting place to our little town.</p>
+            <section>
+                <h3>Taco Trivia</h3>
+
+                <aside>
+                    <details>
+                        <summary>When did tacos first appear in the United States?</summary>
+                        <p>Tacos are thought to come from Mexico, long before the Spanish arrived. </p>
+                    </details>
+                </aside>
+            </section>
+
+            <hr>
+            <section>
+                <h2 id="second">Our Menu</h2>
+                <table>
+                    <caption>Our Tacos</caption>
+                    <thead>
+                        <tr>
+                            <th>Tacos</th>
+                            <th>Qty</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th rowspan="3">Crunchy</th>
+                            <td>1</td>
+                            <td>$1.50</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>$2.50</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>$3.25</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="3">Soft</th>
+                            <td>1</td>
+                            <td>$2.00</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>$3.50</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>$4.50</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Chips & salsa $2</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+        </article>
+    </main>
+    <br>
+    <p>
+        <a href="">Back To Top</a>
+    </p>
+
+    <hr>
+    <p>Copyright &copy; The Little Taco Shop</p>
 </body>
+
 </html>
