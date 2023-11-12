@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body {
+    /* text-align: center; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    margin: 6rem auto;
+    padding: 1rem;
+    background-color: aquamarine;
+    width: fit-content;
+    height: 55rem;
+    border: 4px solid blue;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+/* nav {
+    border: 3px solid green;
+    height: fit-content;
+    width: fit-content;
+}  */
+
+table {
+    border: 3px solid green;
+    border-collapse: collapse;
+    /* height: fit-content; */
+    /* width: fit-content; */
+}
+tr,th,td {
+    /* margin: 1rem; */
+    padding: 1rem;
+    /* padding-left: 0dvw; */
+    /* border: 3px solid green; */
+    /* height: fit-content; */
+    /* width: fit-content; */
+    font-size: 1.5rem;
+    /* text-align: center; */
+}
+/* th {
+    border: 2px solid green;
+    padding: auto;
+} */
+.one {
+    background-color: green;
+}
+ .two,.three,.four,.five,.seven {
+    background-color: aliceblue;
+}
+
+.two:hover,.three:hover,.four:hover,.five:hover,.seven:hover {
+    background-color: rgba(228, 216, 216, 0.811);
+}
+#one:hover,#two:hover,#three:hover,#four:hover,.six:hover {
+    background-color: aliceblue;
+}

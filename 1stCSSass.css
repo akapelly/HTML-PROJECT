@@ -1,0 +1,31 @@
+body {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+    color: rgb(10, 22, 151);    
+}
+
+div{
+    margin: auto;
+    padding: 1rem;
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    background-color: skyblue;
+    border: solid #000;
+    outline: dotted purple;
+    outline-width: 4px;
+    border-width: 4px;
+    /* outline-offset: 10px solid purple; */
+}
+
+div:hover {
+    background-color: greenyellow;
+    outline-color: red;
+    border-color: blue;
+}

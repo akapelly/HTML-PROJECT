@@ -1,0 +1,14 @@
+body{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+mark {
+    color: gold;
+    background-color: slategrey;
+}

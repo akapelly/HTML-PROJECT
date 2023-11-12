@@ -1,0 +1,183 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    /* border: 3px solid #476A45; */
+    font-size: 1rem;
+    margin: 5rem;
+    background-color: whitesmoke;
+    padding: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+
+ol {
+/* text-align: center; */
+    /* list-style-image: url(icons8-tick-box-24.png); */
+    list-style: square url(icons8-tick-box-24.png) inside;
+    color: rgb(255, 0, 0);
+    margin-bottom: 3rem;
+}
+
+ul {
+    list-style-type: disc;
+    color: rgb(0, 0, 255);
+    margin-bottom: 3rem;
+}
+
+p {
+    color: pink;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    line-height: 5rem;
+    /* text-transform: uppercase; */
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+/* ol li:nth-child(2) {
+    color: aqua;
+} */
+
+/* h2 {
+    font-size: 48px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-weight: lighter;
+    color: #a8ed14;
+} */
+/* .one {
+    border:1px solid red;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.two {
+    border:1px solid yellowgreen;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.three {
+    border:1px solid pink;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.four {
+    border:1px solid purple;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.five {
+    border:1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+}
+.box {
+    margin: 1rem auto;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+img {
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+} */
+/* ul {
+    list-style-type: disc;
+    margin-top: 1rem;
+}
+
+li:first-child {
+    color: bisque;
+    font-size: 3rem;
+}
+li:last-child {
+    color: pink;
+    font-size: 3rem;
+}
+li:nth-child(odd):not(.third) {
+    color: aquamarine;
+    background-color: #333;
+    font-size: 3rem;
+}
+li:nth-child(even):not(.fourth) {
+    color: aquamarine;
+    background-color: #333;
+    font-size: 3rem;
+} */
+
+
+/* a:hover {
+    color: greenyellow;
+    background-color: rgba(2, 2, 18, 0.3);
+}
+
+a:active {
+    color: white;
+}
+
+a:focus {
+    color: greenyellow;
+} */
+
+
+
+
+/* header{
+    font-size: 2rem;
+    padding: 1rem;
+    border: 2px dotted red;
+    margin: 0.5rem;
+}
+h1{
+    font-size: 1rem;
+    border: solid #333;
+    padding: 1rem;
+    color: #fff;
+    width: 50%;
+    background-color: rgba(120, 137, 204, 0.917);
+}
+.firstP{
+    margin: 0.5rem;
+    border: 1px solid red;
+    padding: 1rem;
+}
+.secondP{
+    margin: 0.5rem;
+    border: 1px solid red;
+    padding: 1rem;
+}
+.thirdP{
+    margin: 0.5rem;
+    border: 1px solid red;
+    padding: 1rem;
+}
+.fourthP{
+    margin: 0.5rem;
+    border: 1px solid red;
+    padding: 1rem;
+}
+.fhead{
+    margin: 0.5rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
+span{
+    border: 1px solid pink;
+    padding: 0.5rem;
+} */
