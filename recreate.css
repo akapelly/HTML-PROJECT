@@ -21,6 +21,7 @@ div {
 h1 {
     text-align: center;
     padding: 2rem;
+    margin-top: 3rem;
 }
 
 /* nav {
@@ -56,9 +57,9 @@ tr,th,td {
     background-color: aliceblue;
 }
 
-.two:hover,.three:hover,.four:hover,.five:hover,.seven:hover {
+ .two:hover{
     background-color: rgba(228, 216, 216, 0.811);
 }
-#one:hover,#two:hover,#three:hover,#four:hover,.six:hover {
-    background-color: aliceblue;
+#one:hover,.six:hover {
+    background-color:  rgba(228, 216, 216, 0.811);
 }

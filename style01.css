@@ -8,16 +8,228 @@
 
 body {
     /* border: 3px solid #476A45; */
-    font-size: 1rem;
-    margin: 5rem;
-    background-color: whitesmoke;
-    padding: 1rem;
+    font-size: 2rem;
     font-family: "Roboto", sans-serif;
+    /* margin: 1rem; */
+    min-height: 200vh;
+    position: relative;
+}
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+section {
+    min-height: 100vh;
+}
+header,footer {
+    height: 100px;
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+   padding: 1rem;
+  
+}
+header {
+    position: sticky;
+    top: 0;
+}
+footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
-ol {
-/* text-align: center; */
-    /* list-style-image: url(icons8-tick-box-24.png); */
+.social {
+    background-color: #333;
+    padding: 0.5rem;
+    position: fixed;
+    top: 200px;
+    /* width: 65px; */
+
+}
+
+/* .outer-container {
+    position: relative;
+    border: 3px dashed black;
+    width: 75vw;
+    height: 85vh;
+    margin: 40px auto;
+}
+.inner-container {
+    /* position: relative; */
+    border: 2px solid black;
+    width: 40vw;
+    height: 50vh;
+    margin: 200px auto;
+    /* margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto; */
+} */
+/* .box {
+    height: 150px;
+    width: 150px;
+    color: #fff;
+}
+
+.absolute {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: -10000px;
+    z-index: 2;
+}
+.relative {
+    background-color: green;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.fixed {
+    background-color: black;
+    position: fixed;
+    top: 20px;
+    left: 300px;
+    width: 300px;
+    display: none;
+}
+.sticky {
+    background-color: rebeccapurple;
+    position: sticky;
+    top: 100px;
+    z-index: 5;
+}
+.para {
+    color: #fff;
+    background-color: #000;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+   
+} */
+
+/* section p {
+    margin: 1rem;
+    margin-top: 0;
+}
+p {
+    margin: 1rem;
+}
+
+section p:nth-child(odd) {
+    color: goldenrod;
+}
+
+section p:nth-child(even) {
+    color: red;
+}
+
+img {
+    width: 300px;
+    height: 20px;
+    border: 3px dotted rgb(141, 29, 48);
+}
+.column {
+    column-count: 4;
+    column-gap: 0.5rem;
+    column-rule: 3px solid #333;
+    column-width: 250px;
+}
+
+.more {
+    display: inline;
+    color: #fff;
+    background-color: #333;
+   
+}
+
+.quote {
+    font-size: 3rem;
+    column-span: all;
+    text-align: center;
+    padding: 1rem;
+}
+
+.nowrap {
+    text-wrap: nowrap;
+    white-space: nowrap;
+} */
+
+/* section {
+    background-color: brown;
+    padding: 1rem;
+    clear: both;
+    display: flow-root;
+}
+
+.block {
+    height: 30vh;
+    width: 30vh;
+    background-color: black;
+    color: white;
+    float: left;
+}
+.block1 {
+    height: 30vh;
+    width: 30vh;
+    background-color: black;
+    color: white;
+    float: right;
+}
+
+.left {
+    margin-right: 1rem;
+}
+p {
+    margin-bottom: 1rem;
+    margin-: 1rem;
+} */
+/* nav {
+    background-color: black;
+}
+
+ul {
+    padding: 1rem;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    margin-inline: 1rem;
+}
+li a {
+    text-decoration: none;
+}
+
+li a:hover,li a:focus {
+    text-decoration: underline;
+    color: #fff;
+} */
+/* main {
+    background-color: yellowgreen;
+}
+p {
+    margin: 1rem;
+    background-color: gray;
+}
+
+.opposite {
+    display: inline-block;
+    color: #fff;
+    background-color: #333;
+    padding: 2rem;
+    margin: 1rem;
+} */
+
+/* ol {
+
     list-style: square url(icons8-tick-box-24.png) inside;
     color: rgb(255, 0, 0);
     margin-bottom: 3rem;
@@ -34,12 +246,12 @@ p {
     font-size: 2rem;
     letter-spacing: 2px;
     line-height: 5rem;
-    /* text-transform: uppercase; */
+
 }
 
 h2 {
     font-size: 3rem;
-}
+} */
 
 /* ol li:nth-child(2) {
     color: aqua;

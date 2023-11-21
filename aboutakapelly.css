@@ -3,12 +3,31 @@ body{
     margin: 1rem;
     background-color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* text-align: center; */
+    font-size: 1.5rem;
 }
 h1 {
+    /* margin-top: 3rem; */
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 mark {
     color: gold;
     background-color: slategrey;
+    
 }
+aside {
+    border: 3px solid blue;
+    outline: 2px solid pink;
+    padding: 3rem;
+    /* width: fit-content; */
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 160px;
+    border-bottom-left-radius: 160px;
+    background-color: steelblue;
+}
+/* p {
+    border: 3px solid red;
+    border-radius: 257px; */
