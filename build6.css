@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+}
+.first-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    max-width: 70%;
+    height: 75px;
+    margin: 20px auto;
+    background-color: rgba(0, 255, 255, 0.671);
+    color: #fff;
+    font-size: 2rem;
+}
+.second-container {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    max-width: 70%;
+    height: 500px;
+    margin: 20px auto;
+    gap: 11px;
+    color: white;
+    font-size: 2rem;
+}
+.third-container {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    flex-flow: row wrap;
+    background-color: orange;
+    gap: 30px;
+    width: 74%;
+    height: 500px;
+}
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    max-width: 70%;
+    height: 75px;
+    margin: 20px auto;
+    background-color: rgba(0, 255, 255, 0.671);
+    color: #fff;
+    font-size: 2rem;
+}
+.second-container .first-child {
+    display: flex;
+    justify-content: center;
+    /* align-content: space-around; */
+    width: 25%;
+    height: 500px;
+    font-size: 2rem;
+    align-items: center;
+    background-color: rgb(78, 249, 155);
+}
+.third-container .first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 20%;
+    height: 200px;
+    background-color: gold;
+    margin-bottom: 30px;
+}
+p {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+}
