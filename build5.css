@@ -5,19 +5,24 @@
 }
 body {
     min-height: 100vh;
-
+    font-family:  Tahoma,'Segoe UI', Geneva, Verdana, sans-serif;
 }
 .container {
     display: flex;
+    justify-content: flex-end;
+    /* justify-self: flex-start; */
+    align-content: space-between;
     flex-flow: row wrap;
     max-width: 70%;
     min-height: 400px;
     margin: 20px auto;
+    /* padding-top: 50px; */
 }
 .first {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* align-content: space-between; */
     width: 100%;
     height: 70px;
     background-color: aqua;
@@ -31,6 +36,50 @@ body {
     width: 100%;
     height: 70px;
     background-color: aquamarine;
+    color: rgb(146, 133, 114);
+    font-size: 2rem;
+}
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 400px;
+    background-color: aquamarine;
+    color: rgb(146, 133, 114);
+    font-size: 2rem;
+}
+.fourth {
+    display: flex;
+    justify-content: center;
+    justify-items: flex-end;
+    /* justify-self: baseline; */
+    align-items: center;
+    width: 70%;
+    height: 155px;
+    background-color: dodgerblue;
+    color: rgb(146, 133, 114);
+    font-size: 2rem;
+}
+.fifth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: flex-start; */
+    /* align-self: flex-start; */
+    width: 70%;
+    height: 155px;
+    background-color: rgb(9, 9, 78);
+    color: rgb(146, 133, 114);
+    font-size: 2rem;
+}
+.sixth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: aqua;
     color: rgb(146, 133, 114);
     font-size: 2rem;
 }
