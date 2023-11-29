@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background-color: rgb(33, 33, 154);
+    padding: 5rem;
+    font-family:  Tahoma,'Segoe UI', Geneva, Verdana, sans-serif;
+}
+.container {
+    /* margin: auto; */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-content: center;
+    margin-top: 4rem;
+    gap: 20px;
+
+}
+
+.container2 {
+    text-align: center;
+    font-weight: light;
+    font-size: 30px;
+    color: antiquewhite;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5rem;
+    width: 20rem;
+    height: 35rem;
+    background-color: aliceblue;   
+    border-radius: 10px;
+}
+.image {
+    width: 122px;
+    height: 72.33px;
+}
+.box:nth-child(odd) {
+    height: 30rem;
+    align-self: flex-end;
+}
+.box.first {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.box.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+.box.third {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.box.second .inner-box {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 18px;
+    background-color: antiquewhite;
+    color: rebeccapurple;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.box.first p:not(:last-child){
+    margin-top: 10px;
+}
+
+.box.first .starter {
+    color: goldenrod;
+    font-size: 2rem;
+}
+.span {
+    font-size: 5rem;
+    color: rebeccapurple;
+}
+.box.first p:last-child {
+    margin-top: 1.5rem;
+}
+.image2 {
+    margin-top: 40px;
+    width: 112px;
+    height: 62.33px;
+}
+.box.second .personal {
+    color: goldenrod;
+    font-size: 2rem;
+    /* padding: 5px; */
+}
+.box.second p:not(.link) {
+    margin-top: 10px;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 50px;
+    width: 200px;
+    background-color: rebeccapurple;
+    margin-top: 30px;
+}
+
+
+.link p  a {
+    padding: 10px;
+    margin: 5px auto;
+    color: #fff;
+}
+.image3 {
+    width: 112px;
+    height: 62.33px;
+}
+.box.third .team {
+    color: goldenrod;
+    font-size: 2rem;
+}
+.box.third p:last-child {
+    margin-top: 2rem;
+}
+.box.third p:not(:last-child){
+    margin-top: 10px;
+}
