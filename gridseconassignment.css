@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Rubik:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Rubik:wght@400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    font-family:  Barlow-semi-condensed, Verdana, sans-serif;
+    font-size: 13px;
+    background-color: hsl(0, 0%, 81%);
+}
+.main-container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-auto-rows: minmax(300px, 300px);
+    grid-template-areas: 
+    'one one two three'
+    'four five five three';
+    min-height: 100vh;
+    gap: 20px;
+}
+
+.box {
+    display: grid;
+    background-color: aquamarine;
+    border-radius: 12px;
+    color:  hsl(0, 0%, 100%);
+}
+.one {
+    display: grid;
+    grid-area: one;
+    background-color: hsl(263, 55%, 52%);
+    padding-top: 20px;
+    padding-left: 35px;
+
+}
+
+.one .innerbox {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 30px;
+    width: 155px;
+    height: 70px;
+    gap: 5px;
+    /* border: 4px solid #333; */
+   
+}
+.one .innerbox .img1 {
+    display: grid;
+}
+.one .innerbox img {
+    border: 2px solid #d6c9c9df;
+    border-radius: 50%;
+    width: 35px;
+}
+.one .innerbox .name {
+    display: grid;
+    justify-content: flex-end;
+    font-size: 12px;
+    
+}
+.one .innerbox .name p:nth-child(2){
+    opacity: 50%;
+}
+.one .first-para {
+    display: grid;
+    font-weight: 600;
+    font-size: 15px;
+}
+.one .second-para {
+    opacity: 70%;
+}
+.two {
+    display: grid;
+    grid-area: two;
+    background-color: hsl(217, 19%, 35%);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.two .innerbox2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 30px;
+    width: 155px;
+    height: 70px;
+    /* border: 4px solid #333; */
+   
+}
+.two .innerbox2 .img2 {
+    display: grid;
+}
+.two .innerbox2 img {
+    border: 2px solid #d6c9c9df;
+    border-radius: 50%;
+    width: 30px;
+}
+.two .innerbox2 .name2 {
+    display: grid;
+    justify-content: flex-end;
+    font-size: 12px;
+    
+}
+.two .innerbox2 .name2 p:nth-child(2){
+    opacity: 50%;
+}
+.two .para2i {
+    display: grid;
+    font-weight: 600;
+    font-size: 15px;
+}
+.two .para2ii {
+    opacity: 70%;
+}
+
+.three {
+    display: grid;
+    grid-area: three;
+    background-color:   hsl(0, 0%, 100%);
+    padding-left: 30px;
+    padding-top: 20px;
+    color: hsl(217, 19%, 35%);
+    
+}
+
+.three .innerbox3 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 30px;
+    width: 155px;
+    height: 70px;
+    /* border: 4px solid #333; */
+   
+}
+.three .innerbox3 .img3 {
+    display: grid;
+}
+.three .innerbox3 img {
+    border: 2px solid #d6c9c9df;
+    border-radius: 50%;
+    width: 30px;
+}
+.three .innerbox3 .name3 {
+    display: grid;
+    justify-content: flex-end;
+    font-size: 12px;
+    
+}
+.three .innerbox3 .name3 p:nth-child(2){
+    opacity: 50%;
+}
+.three .para3i {
+    display: grid;
+    font-weight: 600;
+    font-size: 15px;
+}
+.three .para3ii {
+    opacity: 70%;
+}
+.four {
+    display: grid;
+    grid-area: four;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.four .innerbox4 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 30px;
+    width: 155px;
+    height: 70px;
+    /* border: 4px solid #333; */
+   
+}
+.four .innerbox4 .img4 {
+    display: grid;
+}
+.four .innerbox4 img {
+    border: 2px solid #d6c9c9df;
+    border-radius: 50%;
+    width: 30px;
+}
+.four .innerbox4 .name4 {
+    display: grid;
+    justify-content: flex-end;
+    font-size: 12px;
+    
+}
+.four .innerbox4 .name4 p:nth-child(2){
+    opacity: 50%;
+}
+.four .para4i {
+    display: grid;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.four .para4ii {
+    opacity: 70%;
+}
+.five {
+    display: grid;
+    grid-area: five;
+    background-color: hsl(219, 29%, 14%);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.five .innerbox5 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 30px;
+    width: 155px;
+    height: 70px;
+    /* border: 4px solid #333; */
+   
+}
+.five .innerbox5 .img5 {
+    display: grid;
+}
+.five .innerbox5 img {
+    border: 2px solid #d6c9c9df;
+    border-radius: 50%;
+    width: 30px;
+}
+.five .innerbox5 .name5 {
+    display: grid;
+    justify-content: flex-end;
+    font-size: 12px;
+    
+}
+.five .innerbox5 .name5 p:nth-child(2){
+    opacity: 50%;
+}
+.five .para5i {
+    display: grid;
+    font-weight: 600;
+    font-size: 15px;
+}
+.five .para5ii {
+    opacity: 70%;
+}
