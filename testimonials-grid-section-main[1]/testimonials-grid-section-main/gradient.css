@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* .div {
+    margin: 2rem auto;
+    width: 800px;
+    height: 300px;
+    background: radial-gradient(pink 20%, blue 20% 50%, red 50% 70%, violet 70% 100%);
+} */
+.div2 {
+    margin: 2rem auto;
+    width: 700px;
+    height: 300px;
+    background: conic-gradient(red, yellow, green, black);
+}
