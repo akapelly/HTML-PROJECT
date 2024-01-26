@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 18rem;
+    height: 18rem;
+    margin: auto;
+    padding-top: 30px;
+    /* background-color: blue; */
+}
+img {
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+}
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 22px;
+    border-radius: 50%;
+    transform: translateZ(20px 50px);
+}
