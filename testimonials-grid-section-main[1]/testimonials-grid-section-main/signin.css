@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to bottom,rgba(148, 159, 159, 0.5),rgb(20, 20, 35)),url(/img/hovering-pix2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+    min-height: 900px;
+}
+.inner-container {
+    width: 40%;
+    height: 800px;
+    background-color: orange;
+    border-radius: 20px;
+    margin: 80px 60px;
+    /* padding-left: 100px; */
+}
+.first-img {
+    background-color: aliceblue;
+    padding: auto;
+}
