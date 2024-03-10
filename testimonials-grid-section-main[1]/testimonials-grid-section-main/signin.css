@@ -13,12 +13,12 @@ body {
 .inner-container {
     width: 40%;
     height: 800px;
-    background-color: orange;
-    border-radius: 20px;
+    background-color: rgba(250, 205, 168,0.8);
+    /* border-radius: 20px; */
     margin: 80px 60px;
-    /* padding-left: 100px; */
-}
+    padding: 60px 155px;
+    }
 .first-img {
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     padding: auto;
 }

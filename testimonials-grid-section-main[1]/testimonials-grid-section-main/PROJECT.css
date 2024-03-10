@@ -34,6 +34,7 @@ header {
     align-items: center;
     height: fit-content;
 }
+
 .first-ul {
     display: flex;
     justify-content: space-between;
@@ -41,11 +42,12 @@ header {
     margin: auto;
     padding-top: 30px;
     width: 100%;
+    gap: 20px;
 }
 .first-list {
     list-style: none;
 }
-a {
+.first-list a {
     text-decoration: none;
     font-size: 21px;
     font-weight: 700;
@@ -66,13 +68,19 @@ a {
     font-size: 20px;
 }
 a:hover {
-    color: mediumblue;
+    color: rgba(42, 126, 235, 0.989);
     transition: 0.3s;
 }
 .btn:hover {
     background-color: darkgreen;
     color: #fff;
     transition: 0.3s;
+}
+.fa-bars {
+    font-size: 50px;
+    display: none;
+    cursor: pointer;
+
 }
 .img {
     width: 100%;
@@ -131,28 +139,22 @@ a:hover {
     
 } */
 .second-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     width: 100%;
-    height: 1650px;
     background-color: rgb(38, 182, 110);
     margin-top: 85px;
 }
 .innerdivi {
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    height: 900px;
+    width: 100%;
+    margin: 3rem 0;
 }
-.innerdivi .h2 {
-    display: flex;
+.second-container .h2 {
+    /* display: flex; */
     width: 100%;
     height: fit-content;
-    margin-top: 60px;
+    padding-top: 6rem;
 }
-.second-container .innerdivi h2 {
+.second-container h2 {
     max-width: 900px;
     font-size: 50px;
     font-weight: 700;
@@ -160,19 +162,18 @@ a:hover {
     padding-left: 60px;
 }
 .second-container .innerdivi p {
-    max-width: 655px;
+    max-width: 670px;
     font-size:  24.5px;
     font-weight: 300;
     color: #fff;
-    padding-left: 30px;
+    padding-left: 4rem;
+    padding-top: 12rem;
     line-height: 35px;
 }
 .pic {
     display: flex;
-    flex-direction: row;
     width: 100%;
     justify-content: space-around;
-    align-items: center;
 }
 .pic .img-1 {
     width: 650px;
@@ -181,7 +182,6 @@ a:hover {
 }
 .innerdivii {
     display: flex;
-    justify-content: space-around;
     padding-right: 50px;
 }
 .second-container .innerdivii p {
@@ -197,7 +197,6 @@ span {
 }
 .pic2 {
     display: flex;
-    flex-direction: row;
     width: 100%;
     justify-content: space-around;
     align-items: center;
@@ -212,7 +211,7 @@ span {
     background-color: rgba(207, 236, 213, 0.3);
     /* background-color: black; */
     padding-top: 9rem;
-    padding-left: 50px;
+    padding-left: 60px; 
     font-size: 23px;
     height: 650px;
 }
@@ -228,12 +227,17 @@ span {
     width: 100%;
     height: 300px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     line-height: 2.5;
+    /* padding: 0 90px; */
+    padding-left: 3.5rem;
+    padding-right: 12rem;
+    /* font-stretch: condensed; */
 }
 .nav ul li {
     /* padding-bottom: 48px; */
     list-style-image: url(/img/pic-9.jpg);
+    
 }
 /* .nav-bar1 {
     display: flex;
@@ -288,7 +292,7 @@ span {
 .inner .boxininner .parra p {
     max-width: 90%;
     padding-top: 30px;
-    padding-bottom: 70px;
+    padding-bottom: 60px;
     line-height: 1.5;
     font-size: 23px;
 }
@@ -328,7 +332,7 @@ span {
 .inner .boxininner2 .parra2 p {
     /* max-width: 100%; */
     padding-top: 30px;
-    padding-bottom: 70px;
+    padding-bottom: 60px;
     line-height: 1.5;
     font-size: 23px;
 }
@@ -379,7 +383,7 @@ span {
     font-size: 50px;
     font-weight: 700;
     color: rgb(38, 182, 110);
-    font-stretch: narrower;
+    font-stretch: semi-condensed;
     padding: 25px 0;
 }
 .faqs .in-div {
@@ -409,9 +413,6 @@ span {
 .accordion li label {
     display: flex;
     align-items: center;
-    /* justify-content: stretch; */
-    /* padding: 4px; */
-    /* width: 100%; */
     font-size: 21px;
     font-weight: 500;
     cursor: pointer;
@@ -433,12 +434,6 @@ span {
     color: #fff;
 }
 .fa-greater-than {
-    /* display: flex; */
-    /* align-self: flex-end; */
-    /* justify-self: flex-end; */
-    /* padding: 12px; */
-    /* padding-left: 45px; */
-    /* text-align: left; */
     font-size: 15px;
     font-weight: 900;
 }
@@ -485,4 +480,94 @@ footer {
     font-size: 21px;
     font-weight: 400;
     letter-spacing: 1px;
+}
+@media screen and (max-width: 1300px){
+    .fa-bars {
+        display: block;
+        cursor: pointer;
+    }
+    .nav-bar {
+        position: fixed;
+        /* flex-direction: column; */
+        flex-direction: row;
+        /* top: 0; */
+        gap: 15px;
+        background-color: rgba(2, 92, 87, 0.881);
+        width: 300px;
+        right: -25%;
+        top: -55%;
+        transition: ease-in-out 2s;
+        justify-content: center;
+        height: 50vh;
+    }
+    .nav-bar ul {
+        flex-direction: column;
+        text-align: center;
+    } 
+    nav:hover .nav-bar{
+        right: 0;
+        top: 0;
+
+    }
+    .btn {
+        margin: 50px 0;
+    }
+    /* .first-container .inner-divi p {
+        max-width: 400px;
+    }
+    .inner-divii {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: fit-content;
+    }
+    .imgii {
+        width: 600px;
+        height: 600px;
+    }
+    .imgii:hover {
+        padding-right: 30px;
+        padding-bottom: 30px;
+        width: 550px;
+        height: 550px;
+        transition: 0.7s;
+    } */
+}
+@media screen and (max-width: 1170px){
+    .first-container {
+        flex-direction: column;
+        gap: 30px;
+        /* align-items: center; */
+        /* flex-wrap: wrap; */
+    } 
+    .first-container img {
+        align-items: center;
+    }
+    .second-container {
+        margin-top: 800px;
+    }
+}
+@media screen and (max-width: 1120px) {
+    .second-container .innerdivi p {
+        padding-top: 4rem;
+        /* padding-left: 1rem; */
+    }
+    .pic {
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        /* align-items: center; */
+        gap: 3rem;
+    }
+    .img-1 {
+        width: 60rem;
+        /* margin: auto; */
+    }
+    /* .pic p {
+        column-count: 4;
+        max-width: 800px;
+    } */
+    .pic2 {
+        flex-direction: column;
+        /* align-items: center;*/
+    }
 }

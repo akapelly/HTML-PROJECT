@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+body {
+    background: #fff;
+    color: #272d36;
+    overflow-x: hidden;
+    /* min-height: 70rem; */
+}
+header {
+    width: 100%;
+    height: 5rem;
+    background: #fff5f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 22;
+    border-bottom: 0.1px solid rgba(204, 175, 175,0.7);
+}
+header label {
+    font-size: 2.3rem;
+    font-weight: 800;
+    padding-left: 2.5rem;
+}
+header nav {
+    display: flex;
+    flex-basis: 33%;
+    height: fit-content;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 2rem;
+}
+header nav ul li {
+    list-style-type: none;
+}
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #272d36;
+}
+header nav ul li a:hover {
+    border-bottom: 2px solid #fe5722;
+    transition: ease-in 0.3s;
+    
+}
+#first-section {
+    background: #fff5f2;
+}
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+}
+.first-container,
+.firstimg-div {
+    margin-top: 6rem;
+    width: 50%;
+}
+.first-container {
+    /* background-color: blue; */
+    margin: 0 2rem;
+    height: fit-content;
+    /* padding-left: 2rem; */
+  }
+.firstimg-div img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+  }
+.h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+.para {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+.btn {
+    padding: 14px 25px;
+    background: #fe5722;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    display: inline-block;
+    margin: 20px 0;
+}
+.second-section {
+    width: 80%;
+    margin: 3rem auto;
+    text-align: center;
+}
+.h2 {
+    font-size: 3.1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.box {
+    border: 1px solid #b2b2b2;
+    padding: 25px 5px;
+    margin: 0 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.box ion-icon {
+    font-size: 45px;
+    color: #fe5722;
+    margin: 15px 0;
+}
+.box.active,
+.box:hover {
+    color: #fff;
+    border-color: #fe5722;
+    background: #fe5722;
+}  
+/* .box.active ion-icon,
+.box:hover ion-icon {
+    color: #fff;
+  } */
