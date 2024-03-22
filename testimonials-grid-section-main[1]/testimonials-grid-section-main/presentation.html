@@ -4,48 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="Food lovers">
+    <meta name="Description" content="AkapellysCuisine">
     <meta name="author" content="Akapelly">
     <link rel="stylesheet" href="presentation.css">
-    <title>food lovers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>AkapellysCuisine</title>
 </head>
 
 <body>
     <header>
-        <label class="logo">FoodLover</label>
+        <!-- <label class="logo">AkapellysCuisine</label> -->
+        <img src="../../img/logo-aka.png" alt="logo">
         <nav>
             <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">Download App</a></li>
+                <li><a href="#first-section" class="active">Home</a></li>
+                <li><a href="#third-section">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#app">Download App</a></li>
+                <li><a href="Login.html" class="btn1">Login</a></li>
             </ul>
+            <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </label>
+            <!-- <ion-icon name="menu-outline"></ion-icon> -->
         </nav>
     </header>
     <main>
-        <section class="section" id="first-section">
-            <div class="first-container">
+        <section class="section general" id="first-section">
+            <div class="container">
                 <h1 class="h1">It's Not Just Food,<br>
-                     It's an <span>Experience</span>
+                    It's an <span>Experience</span>
                 </h1>
                 <p class="para">
-                    Indulge yourself in a culinary journey like no other, as our website takes you on a delectable adventure through the vibrant flavors, exquisite ambiance, and exceptional service of top-notch restaurants. Discover unforgettable dining experiences that will leave you craving for more.
+                    Indulge yourself in a culinary journey like no other, as our website takes you on a delectable
+                    adventure through the vibrant flavors, exquisite ambiance, and exceptional service of top-notch
+                    restaurants. We offer you an opportunity to go through nature with our local as well as foreign
+                    dishes prepared by an indigeneous chef well known in the south-eastern part of Nigeria. We offer a
+                    chance to discover unforgettable dining experiences that will leave you craving for more.
                 </p>
 
-                <a href="#" class="btn">Explore Menu</a>
+                <a href="signup.html" class="btn" target="_blank">Create Account</a>
             </div>
             <div class="firstimg-div">
-                <img src="/img/home-banner.png" alt="home-banner">
+                <img src="../../img/home-banner.png" alt="home-banner" class="immg">
             </div>
         </section>
-        <section class="second-section" id="second-section">
+        <section class="second-section general" id="second-section">
             <h2 class="h2">How It Works</h2>
 
             <div class="section second-container">
                 <div class="box">
                     <h3>Easy Order</h3>
                     <ion-icon name="timer-outline"></ion-icon>
+                    <!-- <i class="fa fa-clock"></i> -->
                     <p>
                         Ordering from our website is as easy as a few<br>
                         clicks and you're all set to enjoy your meal.
@@ -56,8 +68,8 @@
                     <h3>Best Quality</h3>
                     <ion-icon name="trophy-outline"></ion-icon>
                     <p>
-                       We are known for serving the highest quality<br>
-                       food, hands down! It's truly exceptional.
+                        We are known for serving the highest quality<br>
+                        food, hands down! It's truly exceptional.
                     </p>
                 </div>
 
@@ -66,11 +78,306 @@
                     <ion-icon name="checkmark-done-circle-outline"></ion-icon>
                     <p>
                         Place an order on our website and expect a swift<br>
-                        and expedient delivery of your delectable meal.
+                        and expedient delivery of your delectable meal.<br>
+                        <!-- We deliver to your doorstep. -->
                     </p>
-                  </div>
+                </div>
             </div>
         </section>
+
+        <section class="general" id="third-section">
+            <div class="section">
+                <div class="firstimg-div">
+                    <img src="../../img/about-banner.png" alt="about-banner">
+                </div>
+                <div class="container">
+                    <div class="h2">About Our Restaurant</div>
+                    <h2 class="h1">150+</h2>
+
+                    <h3 class="para">Our Delicious Food</h3>
+
+                    <p>
+                        AkapellysCuisine is an absolute flavor extravaganza! The meals are like a burst of culinary
+                        fireworks, leaving your taste buds in a state of pure bliss. It's a dining experience that will
+                        have you craving for more!. And the goodnews is, you can order from us in bulk and we will
+                        deliver to you anywhere in <strong>Africa</strong> and <strong>Europe</strong>.
+                    </p>
+
+                    <a href="#menu" class="btn">Explore Menu</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="general" id="menu">
+            <div class="third-container">
+                <ul class="category">
+                    <li class="active">All</li>
+                    <li>soup</li>
+                    <li>Chicken</li>
+                    <li>Pizza</li>
+                    <li>Small chops</li>
+                    <li>jollof</li>
+                </ul>
+
+                <div class="menu-container">
+                    <div class="restaurant-menu">
+                        <div class="menu-item">
+                            <div class="img-outline">
+                                <img src="../../img/menu-11.jpg" alt="pizza">
+                            </div>
+                            <div class="title">Food Restaurant | International & Local | Pizza</div>
+
+                            <div class="location">Anambra, Nigeria</div>
+
+                            <div class="order">
+                                <div class="price">&#8358;12500.00</div>
+                                <a href="#" class="btn btn-menu">Order Now</a>
+                            </div>
+                        </div>
+
+                        <div class="menu-item separate">
+                            <div class="img-outline">
+                                <img src="../../img/menu-9.jpg" alt="fish & chops">
+                            </div>
+                            <div class="title">Food Restaurant | International & Local | Fish/Sauce & Yam</div>
+
+                            <div class="location">Anambra, Nigeria</div>
+
+                            <div class="order">
+                                <div class="price">&#8358;6500.00</div>
+                                <a href="#" class="btn btn-menu">Order Now</a>
+                            </div>
+                        </div>
+
+                        <div class="menu-item separate">
+                            <div class="img-outline">
+                                <img src="../../img/jollof-menu.jpg" alt="small chops">
+                            </div>
+                            <div class="title">Food Restaurant | International & Local | Jollof Rice</div>
+
+                            <div class="location">Anambra, Nigeria</div>
+
+                            <div class="order">
+                                <div class="price">&#8358;3500.00</div>
+                                <a href="#" class="btn btn-menu">Order Now</a>
+                            </div>
+                        </div>
+
+                        <div class="menu-item separate">
+                            <div class="img-outline">
+                                <img src="../../img/vegan.jpg" alt="Vegan Diet">
+                            </div>
+                            <div class="title">Food Restaurant | International & Local | Vegan Diet</div>
+
+                            <div class="location">Anambra, Nigeria</div>
+
+                            <div class="order">
+                                <div class="price">&#8358;4000.00</div>
+                                <a href="#" class="btn btn-menu">Order Now</a>
+                            </div>
+                        </div>
+
+                        <div class="menu-item separate">
+                            <div class="img-outline">
+                                <img src="../../img/menu-egusi.jpg.crdownload" alt="soup">
+                            </div>
+                            <div class="title">Food Restaurant | International & Local | Egusi Soup</div>
+
+                            <div class="location">Anambra, Nigeria</div>
+
+                            <div class="order">
+                                <div class="price">&#8358;3750.00</div>
+                                <a href="#" class="btn btn-menu">Order Now</a>
+                            </div>
+                        </div>
+
+                        <div class="menu-item separate">
+                            <div class="img-outline">
+                                <img src="../../img/menu-13.jpg" alt="Amala & Ewedu">
+                            </div>
+                            <div class="title">Food Restaurant | International & Local | Amala & Ewedu</div>
+
+                            <div class="location">Anambra, Nigeria</div>
+
+                            <div class="order">
+                                <div class="price">&#8358;5550.00</div>
+                                <a href="#" class="btn btn-menu">Order Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="fourth-section" id="testimony">
+            <div class="general section">
+                <div class="container">
+                    <h2 class="h2">What people say about AkapellysCuisine:</h2>
+                    <p>
+                        So,I recently tried out this amazing restaurant called AkapellysCuisine. Let me tell you, their
+                        delivery was lightning fast!. The meal was absolutely delicious! The flavors were on
+                        point, and every bite was a burst of yumminess. I highly recommend giving it a try. Trust me,
+                        you won't be disappointed! 😄🍽
+                    </p>
+
+                    <div class="user section">
+                        <img src="../../img/testify.jpg" alt="testifier">
+
+                        <div class="name">
+                            <div class="title">Ikechukwu Paul</div>
+                            <div class="location">Onitsha, Anambra</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="firstimg-div">
+                    <img src="../../img/testify-banner.png" alt="about-banner">
+                </div>
+            </div>
+        </section>
+        <section class="general" id="faqs">
+            <h2 class="h2">Frequently Asked Questions</h2>
+
+            <ul class="accordion">
+                <li>
+                    <input type="radio" name="accordion" id="first">
+                    <label for="first"> What are your restaurant's opening hours?
+                    </label>
+                    <div class="content">
+                        <p>We are open from 8:00 AM to 10:00 PM, Monday to Thursday.
+                            And 7:00 AM to 11:30 PM, Friday to Sunday.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="second">
+                    <label for="second">Do you offer vegetarian or vegan options?
+                    </label>
+                    <div class="content">
+                        <p>Yes, we have a variety of delicious vegetarian and vegan dishes available on our menu.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="third">
+                    <label for="third"> Do you have gluten-free options?
+                    </label>
+                    <div class="content">
+                        <p>Yes, we offer gluten-free alternatives for many of our dishes to accommodate dietary
+                            restrictions.</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="fourth">
+                    <label for="fourth">What payment methods do you accept?</label>
+                    <div class="content">
+                        <p> We accept cash, credit cards, and mobile payment options like Bank Transfers and Pos
+                            Transfers.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="general" id="app">
+            <div class="section">
+                <!-- -------for learning-------
+                     <div class=" phone-app">
+                    <img src="/img/phone-app.png" alt="phone app" >
+                </div> -->
+                <div class="firstimg-div">
+                    <img src="../../img/bphone-app.png" alt="phone app">
+                </div>
+
+                <div class="container">
+                    <h2 class="h2">Download The AkapellysCuisine App</h2>
+                    <p class="big">
+                        You should download our app because it makes ordering from our restaurant (especially in bulk)
+                        super easy and convenient. Plus, you'll get exclusive deals and updates!📱🍔
+                    </p>
+
+                    <div class="download section">
+                        <a href="">
+                            <div class="app-store">
+                                <ion-icon name="logo-google-playstore"></ion-icon>
+                                <p>
+                                    GET IT ON <br />
+                                    <span>Google Play</span>
+                                </p>
+                            </div>
+                        </a>
+
+                        <a href="">
+                            <div class="app-store">
+                                <ion-icon name="logo-apple"></ion-icon>
+                                <p>
+                                    Download on the <br />
+                                    <span>App Store</span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="menu-container section">
+                <div class="footer-about">
+                    <h2>About</h2>
+                    <p>
+                        AkapellysCuisine is an absolute flavor extravaganza! The meals are like a burst of culinary
+                        fireworks, leaving your taste buds in a state of pure bliss. It's a dining experience that will
+                        have you craving for more!. And the goodnews is, you can order from us in bulk and we will
+                        deliver to you anywhere in Africa and Europe.
+                    </p>
+                </div>
+
+                <div class="footer-category">
+                    <h2>Our Menu</h2>
+
+                    <ul>
+                        <li><a href="#menu">Soup</a></li>
+                        <li><a href="#menu">Chicken</a></li>
+                        <li><a href="#menu">Pizza</a></li>
+                        <li><a href="#menu">Small Chops</a></li>
+                        <li><a href="#menu">Jollof</a></li>
+                    </ul>
+                </div>
+
+                <div class="quick-links">
+                    <h2>Quick Links</h2>
+
+                    <ul>
+                        <li><a href="#third-section">About Us</a></li>
+                        <li><a href="mailto:chijiokeakachukwu6@gmail.com">Contact Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="Login.html">Order</a></li>
+                        <li><a href="#app">Download App</a></li>
+                    </ul>
+                </div>
+
+                <div class="get-in-touch">
+                    <h2>Get in touch</h2>
+                    <ul>
+                        <li><a href="login.html">Account</a></li>
+                        <li>Support Center</li>
+                        <li><a href="mailto:chijiokeakachukwu6@gmail.com">Feedback</a></li>
+                        <li><a href="mailto:chijiokeakachukwu6@gmail.com">Suggestion</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright &copy; 2022. All Rights Reserved.</p>
+            </div>
+        </section>
+
+        <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+        <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+        
+
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.2.2/index.cjs.min.js" integrity="sha512-XA50v2jCBeXCjj3csHdYV4HLvACatDSmuN+qGW2CALMbjz4jqGpzf2Fi2WYbbcfex7n44oj1KUNpSWqg9BblhQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     </main>
 </body>
 

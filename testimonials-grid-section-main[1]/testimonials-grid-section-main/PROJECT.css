@@ -58,16 +58,14 @@ header {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    /* width: 125px;
-    height: 45px; */
     padding: 16px 28px;
     text-align: center;
     background-color: rgb(38, 182, 110);
-    color: #fff;
+    color: #ffff;
     border-radius: 12px;
     font-size: 20px;
 }
-a:hover {
+.first-list a:hover {
     color: rgba(42, 126, 235, 0.989);
     transition: 0.3s;
 }
@@ -80,7 +78,6 @@ a:hover {
     font-size: 50px;
     display: none;
     cursor: pointer;
-
 }
 .img {
     width: 100%;
@@ -488,9 +485,7 @@ footer {
     }
     .nav-bar {
         position: fixed;
-        /* flex-direction: column; */
         flex-direction: row;
-        /* top: 0; */
         gap: 15px;
         background-color: rgba(2, 92, 87, 0.881);
         width: 300px;
