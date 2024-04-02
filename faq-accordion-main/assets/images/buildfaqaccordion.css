@@ -1,12 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans,wght@1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans,wght@1,400,500,600,700&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Worksans', sans-serif;
+    background: hsl(292, 16%, 49%);
 }
 body {
     font-size: 16px;
-    /* width: 100%; */
-    /* margin: 0 1rem; */
-    
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+    width: 35%;
+    height: 500px;
+    /* padding: 200px 0; */
+    background-color: hsl(275, 100%, 97%); 
+    /* z-index: 20; */
+    margin: auto;
 }
