@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main {
+    display: flex;
+    /* background: #333; */
+    align-items: center;
+    font-size: 18px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 100px;
+    position: relative;
+    text-align: center;
+    transform-style: preserve-3d;
+}
+
+main::before {
+    animation: fade-slide-down .8s ease-out forwards;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.8)),
+    url(../../img/Black\ Spiderman.jpg) no-repeat bottom;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+main::after {
+    animation: rotate-up .5s .5s cubic-bezier(0, .5, 0, 1) forwards;
+    background: #F9FCFF;
+    content: "";
+    height: 40rem;
+    left: -5%;
+    position: absolute;
+    right: -5%;
+    top: 90%;
+    transform-origin: 0 0;
+    /* transform: rotateZ('-4deg'); */
+    z-index: 0;
+}
+.animate {
+    animation: pop-in .8s cubic-bezier(0,.9,.03,1.27) forwards;
+    opacity: 0;
+}
+.replace-rocky {
+    /* width: 200px; */
+    animation-delay: 1s;
+}
+.title, .subtitle {
+    color: #fff;
+}
+.title {
+    animation-delay: 1.2s;
+} 
+
+.subtitle {
+    margin-top: 10px;
+    margin-bottom: 5rem;
+    font-size: medium;
+    text-transform: uppercase;
+    animation-delay: 1.4s;
+}
+.btn {
+    transform: translateZ(.1px);
+    position: relative;
+    z-index: 10;
+    animation-delay: 1.6s;
+}
+.button {
+    text-decoration: none;
+    background: rgb(20, 179, 5);
+    padding: 15px 20px;
+    border-radius: 9px;
+    color: #fff;
+    font-weight: 600;
+}
+.wrapper2 {
+    padding: 20px 500px;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: large;
+    backdrop-filter: blur(42px);
+    margin-top: 35px;
+    animation-delay: 1.7s;
+    /* box-shadow: 10px 10px 10px 10px
+                2px 5px 10px 10px; */
+}
+@keyframes fade-slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-4rem);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+@keyframes pop-in {
+    0% {
+        opacity: 0;
+        transform: translateX(-4rem) scale(1);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+@keyframes rotate-up {
+    100% {
+        transform: rotateZ('-4deg');
+    }
+}
+@keyframes fade-slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(4rem);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}

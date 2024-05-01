@@ -61,7 +61,7 @@ header {
     padding: 16px 28px;
     text-align: center;
     background-color: rgb(38, 182, 110);
-    color: #ffff;
+    color: #ffff !important;
     border-radius: 12px;
     font-size: 20px;
 }
@@ -120,15 +120,17 @@ header {
 }
 .imgii {
     width: 750px;
-    transition-property: width, height;
+    transition: 0.7s;
+    /* transition-property: width, height;
     transition-duration: 0.7s,0.7s;
-    transition-timing-function: ease;
+    transition-timing-function: ease; */
 }
 .imgii:hover {
-    padding-left: 30px;
+    transform: scale(0.8);
+    /* padding-left: 30px;
     width: 710px;
     height: fit-content;
-    transition: 0.7s;
+    transition: 0.7s; */
 }
 /* .snr-container {
     min-height: 2000px;
@@ -298,12 +300,14 @@ span {
     color: #fff;
     padding: 20px 45px;
     border-radius: 5px;
+    font-size: 17px;
+    /* text-decoration: none; */
     /* gap: 30px; */
 }
 .inner .boxininner2 {
+    background-color: rgba(101, 214, 123, 0.3);
     width: 46%;
     height: 805px;
-    background-color: rgba(101, 214, 123, 0.3);
     border-radius: 35px;
 }
 .inner .boxininner2 .immg2 {
@@ -404,6 +408,7 @@ span {
     width: 100%;
     border: 0.5px solid rgba(216, 219, 217,0.9);
     background: rgba(216, 219, 217,0.5);
+    gap: 10px;
     /* box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
                 -6px -6px 10px -1px rgba(255, 255, 255, 0.7); */
 }
